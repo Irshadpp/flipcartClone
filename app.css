@@ -1,0 +1,257 @@
+#background{
+    position: absolute;
+    background-color: #f5f5f5;
+}
+.nav {
+    height: 75px;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 1280px;
+    display: flex;
+}
+.nav img{
+    margin-left: 100px;
+    width: 140px;
+    height: 90px;
+    margin-top: -3px;
+}
+#search{
+    font-size: 30px;
+    height: 40px;
+    width: 45px;
+    border: 0;
+    background-color:#f0f8ff;
+    margin-left: 30px;
+    margin-top: 24px;
+    border-radius: 8px 0 0 8px;
+}
+.gg-search {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: -4px
+}
+.gg-search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 14px;
+    left: 16px
+}
+.nav input{
+    font-size: 18px;
+    width: 420px;
+    height: 40px;
+    border-radius: 0 8px 8px 0;
+    margin-top: 24px;
+    border: none;
+    color: black;
+    background-color:#f0f8ff;
+}
+/* Dropdown Button */
+.dropbtn {
+    position: relative;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 24px;
+    border: none;
+    padding-left: 30px;
+  }
+  #user{
+    margin-left: -20px;
+    margin-top: 2px;
+    position: absolute;
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 3px 1px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: royalblue;
+                            color: white;
+}
+
+  /* carttt */
+   #cart{
+    margin-left: 50px; 
+    margin-top: 32px;
+   }
+
+   .nav a{
+    text-decoration: none;
+    font-size: 20px; 
+    color: black;
+    margin-top: 30px;
+    margin-left: 5px;
+   }
+
+   #cart2{
+    margin-left: 50px;
+   }
+
+   .dropbtn1 {
+    border: none;
+    padding: 3px;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 7px;
+    margin-top: 12px;
+    margin-left: 50px;
+  }
+
+
+  
+   .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 150px;
+  }
+
+  .dropdown-content1 a {
+    color: black;
+    padding: 2px 1px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+
+   /* Change color of dropdown links on hover */
+   .dropdown-content1 a:hover {background-color: #ddd;}
+  
+   /* Show the dropdown menu on hover */
+   .dropdown:hover .dropdown-content1 {display: block;}
+   
+   /* Change the background color of the dropdown button when the dropdown content is shown */
+   .dropdown:hover .dropbtn1 {background-color: 	white;}
+
+   .banner{
+    position: relative;
+    display: flex;
+    width: 1245px;
+    height: 145px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 6px 0px rgba(140, 149, 159, 0.15);
+   }
+
+   .banner img{
+    margin-left: 2px;
+    padding-left: 50px;
+    margin-top: 20px;
+    height: 65px;
+   }
+
+   .names{
+    display: flex;
+   }
+   .names label{
+    font-size: 15px;
+    /* position: relative; */
+    padding-left: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+.carousel img{
+    width: 1245px;
+    height: 205px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.bankad{
+  width: 1245px;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: white;
+  box-shadow: 0px 3px 6px 0px rgba(140, 149, 159, 0.15);
+}
+
+.bankad img{
+  position: absolute;
+  width: 1245px;
+  margin-top: 10px;
+}
+
+.card-deck{
+  display: flex;
+}
+.cardblock{
+  width: 1245px;
+  height: 350px;
+  margin-top: 33px;
+  margin-left: 10px;
+  background-color: white;
+  box-shadow: 0px 3px 6px 0px rgba(140, 149, 159, 0.15);
+}
+.card-deck{
+  height: 290px;
+}
+.cardTitle{
+  margin-left: 15px;
+}
+.card{
+  margin: 10px;
+ 
+}
+.card-text{
+  margin-top: -20px;
+  margin-left: 25px;
+}
+.card-title{
+  margin-top: -15px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: small;
+}
